@@ -1,6 +1,6 @@
 # Relay Protection System using MATLAB Simulink
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates the development of **protective relay logics** using **MATLAB Simulink** for power system protection. Two types of relays are modeled:
 
@@ -11,7 +11,7 @@ The project showcases the **design, simulation, and validation** of relay logic 
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * To develop **under-voltage relay logic** in MATLAB Simulink.
 * To generate the **trip signal** for the circuit breaker under under-voltage conditions.
@@ -20,7 +20,7 @@ The project showcases the **design, simulation, and validation** of relay logic 
 
 ---
 
-## ⚙️ System Specifications
+## System Specifications
 
 * **Software Used:** MATLAB Simulink
 * **Components:**
@@ -33,19 +33,19 @@ The project showcases the **design, simulation, and validation** of relay logic 
 
 ---
 
-## 📖 Theory
+## Theory
 
-### 🔹 Under-Voltage Relay
+### Under-Voltage Relay
 
 An under-voltage relay monitors the supply voltage of the system. When the voltage drops below a **preset threshold value**, the relay issues a trip command to the circuit breaker. This prevents unstable operation and protects sensitive equipment.
 
-### 🔹 Over-Current Relay
+### Over-Current Relay
 
 An over-current relay protects the system by continuously monitoring the line current. When the current exceeds the **preset current limit**, it triggers the circuit breaker to disconnect the faulty section, thereby preventing equipment damage.
 
 ---
 
-## 🛠️ Implementation Steps
+## Implementation Steps
 
 1. **Model setup in Simulink** with voltage and current sources.
 2. **Relay logic design** using comparator blocks for threshold detection.
@@ -59,7 +59,7 @@ An over-current relay protects the system by continuously monitoring the line cu
 
 ---
 
-## 📊 Results
+## Results
 
 * The **under-voltage relay** successfully detects voltage drops and sends a trip signal to the circuit breaker.
 * The **over-current relay** correctly identifies over-current conditions and isolates the system through the circuit breaker.
@@ -72,7 +72,7 @@ An over-current relay protects the system by continuously monitoring the line cu
 
 ---
 
-## 🚀 Applications
+## Applications
 
 * Power system protection in transmission and distribution networks.
 * Industrial protection systems for sensitive electrical equipment.
@@ -81,7 +81,7 @@ An over-current relay protects the system by continuously monitoring the line cu
 ---
 
 
-## 📌 Future Work
+## Future Work
 
 * Implementation of **time-delay logic** for relay operation.
 * Integration of **directional relays** for selective protection.
